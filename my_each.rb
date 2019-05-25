@@ -10,5 +10,5 @@ def my_each(collection) # put argument(s) here
   end
   i = i + 1
 end
-array
+collection
 end
