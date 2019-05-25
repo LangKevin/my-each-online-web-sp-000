@@ -5,7 +5,6 @@ def my_each(array) # put argument(s) here
     if block_given?
       yield array[i]
     else
-      # puts("Hey! No block was given!")
       break
   end
   i = i + 1
