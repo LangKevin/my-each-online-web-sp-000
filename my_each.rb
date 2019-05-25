@@ -1,14 +1,14 @@
-def my_each(collection) # put argument(s) here
+def my_each(array) # put argument(s) here
   # code here
   i = 0
-  while i < collection.length
+  while i < array.length
     if block_given?
-      yield collection[i]
+      yield array[i]
     else
       # puts("Hey! No block was given!")
       break
   end
   i = i + 1
 end
-collection
+array
 end
